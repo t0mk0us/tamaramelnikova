@@ -1,6 +1,6 @@
 import logo from './images/logos/D4LogicLogo.jpg';
 import './App.css';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Footer from "./components/Footer.jsx"
 import NavBar from "./components/NavBar.jsx"
 import Projects from "./components/Projects.jsx"
@@ -41,6 +41,15 @@ function App() {
           <td width="75%" rowSpan="2">
             <div id="page-body">
         <Routes>
+        <Route
+                exact
+                path="/tomkous_portfolio"
+                render={() => {
+                    return (
+                      <Navigate to="/about" /> 
+                    )
+                }}
+              />
           <Route path="/about" element={< AboutPage />} />
           <Route path="/experience" element={< ExperiencePage />} />
           <Route path="/education" element={< EducationPage />} />

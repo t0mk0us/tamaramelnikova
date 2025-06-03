@@ -18,20 +18,20 @@ function ExperiencePage () {
               </tr>
                 <tr> 
                   <td class="textcolumn" align="left" valign="top">
-                  Design4Logic 	
+                  <b>Design4Logic</b> 	
                   <br />mai 2023 – à ce jour
                   <br />
-Propriétaire de la compagnie, Developpeuse full stack
-Développement et maintenance des applications
+<i>Propriétaire de la compagnie, Developpeuse full stack
+Développement et maintenance des applications</i>
 •	Développement back-end avec Java 8 et 17, Spring, Spring Boot
 •	Développement front-end avec React, Angular, HTML et CSS
 •	Containerisation, exécution et partage des application avec Docker
 <br />
 <br />
-Transition Services Conseils	
+<b>Transition Services Conseils</b>
 <br />avril 2024 – juin 2024
 <br />
-Développeuse Full Stack
+<i>Développeuse Full Stack</i>
 <br />
 Modification des procédures BD. Maintenance des applications Java
 •	Développement back-end avec Java 8, GWT
@@ -41,11 +41,11 @@ Modification des procédures BD. Maintenance des applications Java
 •	Déploiement des applications sur AWS Lambda (mode serverless)
 <br />
 <br />
-Humania Assurances
+<b>Humania Assurances</b>
 <br />
 septembre 2022 - mars 2023
 <br />
-Développeuse Java Senior
+<i>Développeuse Java Senior</i>
 <br />
 Développement, tests, et déploiement des applications de la compagnie
 <br />
@@ -55,11 +55,11 @@ Développement, tests, et déploiement des applications de la compagnie
 •	CI/CD avec Jenkins, Git
 <br />
 <br />	
-Desjardins (pour COFOMO)	
+<b>Desjardins (pour COFOMO)</b>	
 <br />
 janvier 2021 - avril 2022
 <br />
-Développeuse Java
+<i>Développeuse Java</i>
 <br />
 Développement, tests et déploiement des APIs
 <br />
@@ -68,11 +68,11 @@ Développement, tests et déploiement des APIs
 •	CI/CD avec BitBucket et Jenkins
 <br />
 <br />
-Hydro-Québec (pour COFOMO)
+<b>Hydro-Québec (pour COFOMO)</b>
 <br />
 avril 2019 – septembre 2021
 <br />
-Développeuse d’applications et Intégrateur
+<i>Développeuse d’applications et Intégrateur</i>.
 <br />
 Développement, tests, intégration et déploiement des applications de la compagnie.
 •	Shell scripting avec Bash
@@ -88,10 +88,10 @@ Développement, tests, intégration et déploiement des applications de la compa
 •	Transfert des connaissances et aide aux développeurs juniors
 <br />
 <br />
-Prospects Software 
+<b>Prospects Software</b> 
 <br />septembre 2018 – mars 2019
 <br />
-Développeuse Full Stack
+<i>Développeuse Full Stack</i>
 <br />
 Développement et maintenance des applications de la compagnie liées à l’application principale Prospects CRM.
 <br />
@@ -102,20 +102,20 @@ Développement et maintenance des applications de la compagnie liées à l’app
 •	Maintenance de front-end avec JSP, HTML et CSS
 <br />
 <br />
-CGI
+<b>CGI</b>
 <br />
 juillet 2017 – août 2018
 <br />
-Développeuse full stack
+<i>Développeuse full stack</i>
 •	Création des preuves de la conception avec java 8
 •	Évaluation des nouveaux logiciels
 <br />
 <br />
-Banque Laurentienne (pour CGI)
+<b>Banque Laurentienne (pour CGI)</b>
 <br />				
 octobre 2016 – septembre 2017
 <br />
-Conseillère en développement applicatif
+<i>Conseillère en développement applicatif</i>
 <br />
 •	Mise à jour des outils Unix (Solaris)
 •	Ajout des nouvelles fonctionnalités aux applications avec java 6-8
@@ -125,10 +125,11 @@ Conseillère en développement applicatif
 •	Déploiement sur Weblogic, Websphere, JBoss et Tomcat (dependamment des applications)
 <br />
 <br />
-Deutsche Bank (pour CGI)						
+<b>Deutsche Bank (pour CGI)</b>						
 <br />
 juillet 2013 – septembre 2016
-<br />Support de niveau 3 et Développeuse Java
+<br />
+<i>Support de niveau 3 et Développeuse Java</i>
 <br />
 Développement et support de la plateforme de la Deutsche Bank qui effectue des millions des transactions d’investissement chaque jour. 
 <br />
@@ -139,9 +140,10 @@ Développement et support de la plateforme de la Deutsche Bank qui effectue des 
 •	Support du niveau 3 et description des problèmes et leurs solutions dans Jira
 <br />
 <br />
-Reitmans Ltée	
+<b>Reitmans Ltée</b>	
 <br />octobre 2010 – mai 2013
-<br />Analyste-programmeuse
+<br />
+<i>Analyste-programmeuse</i>
 <br />
 Responsable de Flex PLM (Product Lifestyle Management), première application PLM écrite en Java par PTC (Parametric Technology Corporation)
 <br />
@@ -154,11 +156,11 @@ Analyse, Documentation, Estimation Haut-Niveau, design et Développement des mod
 •	Gestion des versions avec SVN
 <br />
 <br />
-COGECO CABLE
+<b>COGECO CABLE</b>
 <br />
 décembre 2007 – juillet 2010
 <br />
-Programmeuse-Analyste
+<i>Programmeuse-Analyste</i>
 <br />
 Développement et maintenance du site web de la compagnie
 <br />
