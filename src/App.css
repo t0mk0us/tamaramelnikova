@@ -223,7 +223,9 @@ th, td {
 }
 
 .texttable {
+  width: 95%;
   padding-left: 10px;
+  padding-right: 10px;
   vertical-align: top;
   align-content: left;
 }

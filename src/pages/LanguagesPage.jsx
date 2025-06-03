@@ -7,12 +7,12 @@ function AboutPage () {
 
     return (
         <>
-        <table>
+        <table classname="texttable">
               <tr colspan="2">
                   <td>
                       <br />
                       </td>
-                  <td align="right">
+                  <td align="right" width="90%">
                       <h5>                  
                           Tamara Melnikova 
                         <br />
@@ -22,8 +22,8 @@ function AboutPage () {
               </tr>
             
                 <tr> 
-                <td class="textcolumn" align="left" valign="top" width="60%">
-                  LATIN 
+                <td class="textcolumn" align="left" valign="top" width="50%">
+                  <b>LATIN</b> 
                   <br />
                   <br />
                   French
@@ -31,8 +31,8 @@ function AboutPage () {
                   English
                   <br />
                   </td>
-                  <td class="textcolumn" align="left" valign="top">
-                  SLAVIC
+                  <td class="textcolumn" align="left" valign="top" width="50%">
+                  <b>SLAVIC</b>
                   <br />
                   <br />
                     Ukrainian

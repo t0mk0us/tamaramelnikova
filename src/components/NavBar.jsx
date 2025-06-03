@@ -6,10 +6,18 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">
+                    <FormattedMessage
+                        id="Home.aboutMessage"
+                        defaultMessage="About" />
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/experience">Experience</Link>
+                    <Link to="/experience">
+                    <FormattedMessage
+                        id="Home.experienceMessage"
+                        defaultMessage="Experience" />
+                        </Link>
                 </li>
                 <li>
                     <Link to="/industries">Industries</Link>

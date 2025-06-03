@@ -7,7 +7,7 @@ function ExperiencePage () {
 
     return (
         <>
-        <table>
+        <table classname="texttable">
               <tr colSpan="2">   
               <td>
                 <br />

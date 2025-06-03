@@ -7,7 +7,7 @@ function AboutPage () {
 
     return (
         <>
-        <table>
+        <table  classname="texttable">
               <tr colspan="2">
                   <td>
                       <br />
@@ -23,7 +23,7 @@ function AboutPage () {
             
                 <tr> 
                   <td class="textcolumn" align="left" valign="top">
-                  PROFILE 
+                  <b>PROFILE</b> 
                   <br />
                   <br />
                   Professionnelle confirmée avec expérience de plus de 15 années en technologies Java 
@@ -35,7 +35,7 @@ Langues : Français, Anglais, Ukrainien, Russe.
                   <br />
                   </td>
                   <td class="textcolumn" align="left" valign="top">
-                  CHAMPS DE COMPETENCES
+                  <b>CHAMPS DE COMPETENCES</b>
                   <br />
                   <br />
                   Documentations des spécifications fonctionnelles et techniques.

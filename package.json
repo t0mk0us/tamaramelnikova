@@ -1,13 +1,15 @@
 {
   "name": "tomkous-portfolio",
   "version": "0.1.0",
-  "homepage": "https://t0mk0us.github.io/tomkous_portfolio",
+  "homepage": "https://t0mk0us.github.io/tomkous-portfolio",
   "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "babel-plugin-formatjs": "^10.5.38",
+    "babel-plugin-react-intl": "^8.2.25",
     "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

@@ -3,33 +3,37 @@ import React from 'react';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
 import Concordia from "../images/diplomeconcordiatm.jpg";
-import GoldenKey from "../images/20231124_173130.jpg";
+import GoldenKey from "../images/GoldenKey.jpg";
 
 
 function EducationPage () {
 
     return (
         <>
-        <table>
-              <tr colSpan="2" align="right">
-                  <td align="right">
+        <table classname="texttable">
+              <tr colSpan="2">
+              <td>
+                <br />
+            </td> 
+                  <td align="right" width="100%">
                       <h5>EDUCATION</h5>
                   </td>
               </tr>
               <tr>
-              <td class="textcolumn" align="left" valign="top" width="60%">
-                  Concordia University of Montreal 
+              <td class="textcolumn" align="left" valign="top" width="100px">
+                  <b>Concordia University of Montreal</b> 
                   <br />
-                  Computer Science
+                  Study field:&nbsp;<i>Computer Science</i>
                   <br />
-                  Option:&nbsp;Computer applications
+                  Option:&nbsp;<i>Computer applications</i>
                   <br />
-                    GPA:&nbsp;3.46 (A)
+                  <br />
+                    <b>GPA:&nbsp;3.46 (A)</b>
                     <br />
-                    (Graduated with Distinction)
+                    <i>(Graduated with Distinction)</i>
                     <br />
                   </td> 
-                  <td class="textcolumn" align="left" valign="top" width="40%">
+                  <td class="textcolumn" align="right" valign="top" width="100px">
                   <img src={Concordia} alt="Concordia Diplome" width="300" height="200"/> 
                     <br />
                     <img src={GoldenKey} alt="Golden Key Certificate" width="300" height="200"/> 

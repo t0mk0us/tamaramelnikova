@@ -7,12 +7,12 @@ function AboutPage () {
 
     return (
         <>
-        <table>
+        <table classname="texttable">
               <tr colspan="2">
                   <td>
                       <br />
                       </td>
-                  <td align="right">
+                  <td align="right" width="90%">
                       <h5>                  
                           Tamara Melnikova 
                         <br />
@@ -22,21 +22,18 @@ function AboutPage () {
               </tr>
             
                 <tr> 
-                  <td class="textcolumn" align="left" valign="top" width="60%">
-                  TELECOMMUNICATIONS 
-                  <br />
+                  <td class="textcolumn" align="left" valign="top" width="50%">
+                  <b>TELECOMMUNICATIONS</b> 
                   <br />
                   COGECO Cable
                   <br />
                   <br />
-                  RETAIL
-                  <br />
+                  <b>RETAIL</b>
                   <br />
                   Reitmans Lmtd
                   <br />
                   <br />
-                  BANKING
-                  <br />
+                  <b>BANKING</b>
                   <br />
                   Deutsche Bank (for CGI)
                   <br />
@@ -44,18 +41,18 @@ function AboutPage () {
                   <br />
                   Desjardins (for COFOMO)
                   </td>
-                  <td class="textcolumn" align="left" valign="top">
-                  ENERGY
+                  <td class="textcolumn" align="left" valign="top" width="50%">
+                  <b>ENERGY</b>
                   <br />
                   Hydro-Quebec (for COFOMO)
                   <br />
                   <br />
-                    INSURANCE
+                    <b>INSURANCE</b>
                   <br />
                     Humania Assurance
                   <br />
                   <br />
-                    GOVERNEMENT
+                    <b>GOVERNEMENT</b>
                     <br />
                     Elections Quebec (for Transitions Services Conseils)
                   </td>  

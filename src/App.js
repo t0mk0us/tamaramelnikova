@@ -38,18 +38,11 @@ function App() {
             <Technologies />
             </div>
           </td>
-          <td width="75%" rowSpan="2">
+          <td width="65%" rowSpan="2">
             <div id="page-body">
         <Routes>
-        <Route
-                exact
-                path="/tomkous_portfolio"
-                render={() => {
-                    return (
-                      <Navigate to="/about" /> 
-                    )
-                }}
-              />
+           <Route exact path="/" element={<Navigate replace to="/about" />} /> 
+           <Route exact path="/tomkous-portfolio" element={<Navigate replace to="/about" />} />   
           <Route path="/about" element={< AboutPage />} />
           <Route path="/experience" element={< ExperiencePage />} />
           <Route path="/education" element={< EducationPage />} />
