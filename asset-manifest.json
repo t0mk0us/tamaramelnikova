@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/tomkous_portfolio/static/css/main.b048862c.css",
-    "main.js": "/tomkous_portfolio/static/js/main.0c702c1b.js",
+    "main.js": "/tomkous_portfolio/static/js/main.86354966.js",
     "static/js/453.3d945b00.chunk.js": "/tomkous_portfolio/static/js/453.3d945b00.chunk.js",
     "static/media/diplomeconcordiatm.jpg": "/tomkous_portfolio/static/media/diplomeconcordiatm.f1294ff9b05c11d39dc3.jpg",
-    "static/media/20231124_173130.jpg": "/tomkous_portfolio/static/media/20231124_173130.15651ed66f9f798c9b03.jpg",
+    "static/media/GoldenKey.jpg": "/tomkous_portfolio/static/media/GoldenKey.73585037aabf13a508a3.jpg",
     "static/media/OcenWater2.jpg": "/tomkous_portfolio/static/media/OcenWater2.a8f17c948cedee4fd99e.jpg",
     "static/media/AbstractColorful.jpg": "/tomkous_portfolio/static/media/AbstractColorful.70e2b08d00c0be201603.jpg",
     "static/media/compMind2.jpg": "/tomkous_portfolio/static/media/compMind2.6dc29175ee9cd90af5b9.jpg",
     "static/media/D4LogicLogo.jpg": "/tomkous_portfolio/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
     "index.html": "/tomkous_portfolio/index.html",
     "main.b048862c.css.map": "/tomkous_portfolio/static/css/main.b048862c.css.map",
-    "main.0c702c1b.js.map": "/tomkous_portfolio/static/js/main.0c702c1b.js.map",
+    "main.86354966.js.map": "/tomkous_portfolio/static/js/main.86354966.js.map",
     "453.3d945b00.chunk.js.map": "/tomkous_portfolio/static/js/453.3d945b00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b048862c.css",
-    "static/js/main.0c702c1b.js"
+    "static/js/main.86354966.js"
   ]
 }
