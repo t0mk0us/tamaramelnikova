@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.eba26c1b.css",
-    "main.js": "/about/static/js/main.af2eebed.js",
-    "static/js/453.3d945b00.chunk.js": "/about/static/js/453.3d945b00.chunk.js",
-    "static/media/diplomeconcordiatm.jpg": "/about/static/media/diplomeconcordiatm.f1294ff9b05c11d39dc3.jpg",
-    "static/media/20231124_173130.jpg": "/about/static/media/20231124_173130.15651ed66f9f798c9b03.jpg",
-    "static/media/OcenWater2.jpg": "/about/static/media/OcenWater2.a8f17c948cedee4fd99e.jpg",
-    "static/media/AbstractColorful.jpg": "/about/static/media/AbstractColorful.70e2b08d00c0be201603.jpg",
-    "static/media/compMind2.jpg": "/about/static/media/compMind2.6dc29175ee9cd90af5b9.jpg",
-    "static/media/D4LogicLogo.jpg": "/about/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
-    "index.html": "/about/index.html",
-    "main.eba26c1b.css.map": "/about/static/css/main.eba26c1b.css.map",
-    "main.af2eebed.js.map": "/about/static/js/main.af2eebed.js.map",
-    "453.3d945b00.chunk.js.map": "/about/static/js/453.3d945b00.chunk.js.map"
+    "main.css": "/tomkous_portfolio/static/css/main.b582122a.css",
+    "main.js": "/tomkous_portfolio/static/js/main.2d80e59b.js",
+    "static/js/453.3d945b00.chunk.js": "/tomkous_portfolio/static/js/453.3d945b00.chunk.js",
+    "static/media/diplomeconcordiatm.jpg": "/tomkous_portfolio/static/media/diplomeconcordiatm.f1294ff9b05c11d39dc3.jpg",
+    "static/media/20231124_173130.jpg": "/tomkous_portfolio/static/media/20231124_173130.15651ed66f9f798c9b03.jpg",
+    "static/media/OcenWater2.jpg": "/tomkous_portfolio/static/media/OcenWater2.a8f17c948cedee4fd99e.jpg",
+    "static/media/AbstractColorful.jpg": "/tomkous_portfolio/static/media/AbstractColorful.70e2b08d00c0be201603.jpg",
+    "static/media/compMind2.jpg": "/tomkous_portfolio/static/media/compMind2.6dc29175ee9cd90af5b9.jpg",
+    "static/media/D4LogicLogo.jpg": "/tomkous_portfolio/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
+    "index.html": "/tomkous_portfolio/index.html",
+    "main.b582122a.css.map": "/tomkous_portfolio/static/css/main.b582122a.css.map",
+    "main.2d80e59b.js.map": "/tomkous_portfolio/static/js/main.2d80e59b.js.map",
+    "453.3d945b00.chunk.js.map": "/tomkous_portfolio/static/js/453.3d945b00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eba26c1b.css",
-    "static/js/main.af2eebed.js"
+    "static/css/main.b582122a.css",
+    "static/js/main.2d80e59b.js"
   ]
 }
