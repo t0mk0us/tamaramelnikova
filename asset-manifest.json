@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tomkous_portfolio/static/css/main.b582122a.css",
-    "main.js": "/tomkous_portfolio/static/js/main.2d80e59b.js",
+    "main.js": "/tomkous_portfolio/static/js/main.a4a87e66.js",
     "static/js/453.3d945b00.chunk.js": "/tomkous_portfolio/static/js/453.3d945b00.chunk.js",
     "static/media/diplomeconcordiatm.jpg": "/tomkous_portfolio/static/media/diplomeconcordiatm.f1294ff9b05c11d39dc3.jpg",
     "static/media/20231124_173130.jpg": "/tomkous_portfolio/static/media/20231124_173130.15651ed66f9f798c9b03.jpg",
@@ -11,11 +11,11 @@
     "static/media/D4LogicLogo.jpg": "/tomkous_portfolio/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
     "index.html": "/tomkous_portfolio/index.html",
     "main.b582122a.css.map": "/tomkous_portfolio/static/css/main.b582122a.css.map",
-    "main.2d80e59b.js.map": "/tomkous_portfolio/static/js/main.2d80e59b.js.map",
+    "main.a4a87e66.js.map": "/tomkous_portfolio/static/js/main.a4a87e66.js.map",
     "453.3d945b00.chunk.js.map": "/tomkous_portfolio/static/js/453.3d945b00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b582122a.css",
-    "static/js/main.2d80e59b.js"
+    "static/js/main.a4a87e66.js"
   ]
 }
