@@ -11,28 +11,64 @@ import IndustriesPage from "./pages/IndustriesPage.jsx"
 import LanguagesPage from "./pages/LanguagesPage.jsx"
 import Technologies from "./components/Technologies.jsx";
 import CompMind from "./images/bkgrounds/compMind2.jpg";
+import { useTranslation, Trans } from 'react-i18next';
+import i18n from './i18n';
+
+
+const lngs = {
+  en: { nativeName: 'English' },
+  fr: { nativeName: 'Français' }
+};
+
 
 function App() {
+
+  const { t  } = useTranslation();
+
   return (
     <div className="App">
+ {/*      <header className="App-header">
+        <div>
+
+          {Object.keys(lngs).map((lng) => (
+
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+
+              {lngs[lng].nativeName}
+
+            </button>
+
+          ))}
+
+        </div>
+      <p>
+<Trans i18nKey="description.part1">
+  Edit <code>src/App.js</code> and save to reload.
+</Trans>
+</p>
+<a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+  {t('description.part2')}
+</a>
+</header> */}
         <table>
+          <tbody>
           <tr>
-        <td class="logo">
+        <td className="logo">
           <img src={logo} alt="Design4Logic logo" width="200"/> 
         </td>
-        <td class="topimage" colspan="3" valign="top" width="100%" height="100">
+        <td className="topimage" colSpan="3" valign="top" width="100%" height="100">
           <br />
         </td>
         </tr>
         <tr>
-        <td colspan="4" valign="top" align="center">
+        <td colSpan="4" valign="top" align="center">
             <div>
           <NavBar />
           </div>
           </td>
         </tr>
         <tr>
-          <td align="left" className="technocolumn" rowspan="2">
+          <td align="left" className="technocolumn" rowSpan="2">
             <br />
             <div>
             <Technologies />
@@ -52,6 +88,14 @@ function App() {
       </div>
           </td>
           <td align="left" valign="top" className="projectscolumn">
+          <buttons>
+          {Object.keys(lngs).map((lng) => (
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+              {lngs[lng].nativeName}
+            </button>
+            ))}
+            </buttons>
+            <br/>
             <img src={CompMind} alt="IT brain" width="200" height="100"/> 
             <br />
            <div>
@@ -59,6 +103,7 @@ function App() {
             </div>
           </td>
         </tr>
+        </tbody>
         </table>
           <div>
             <Footer />

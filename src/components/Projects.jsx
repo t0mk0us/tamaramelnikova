@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
 
     return (
-        <projects>
+        <div className="projects">
                 <h3>PROJECTS
                     </h3>
                 <Link to="https://github.com/t0mk0us/BankApplication" className="my-link">
@@ -38,7 +38,7 @@ const Projects = () => {
                     Bank App Authorization (OAuth2)
                     </Link>
                     <br />
-        </projects>
+        </div>
     );
 }
 

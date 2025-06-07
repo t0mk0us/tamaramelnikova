@@ -7,22 +7,22 @@ function AboutPage () {
 
     return (
         <>
-        <table classname="texttable">
-              <tr colspan="2">
+        <table className="texttable">
+          <tbody>
+              <tr colSpan="2">
                   <td>
                       <br />
                       </td>
                   <td align="right" width="90%">
                       <h5>                  
-                          Tamara Melnikova 
+                         Tamara Melnikova 
                         <br />
                         worked in the following industries
                         </h5>
                   </td>
-              </tr>
-            
+              </tr>        
                 <tr> 
-                  <td class="textcolumn" align="left" valign="top" width="50%">
+                  <td className="textcolumn" align="left" valign="top" width="50%">
                   <b>TELECOMMUNICATIONS</b> 
                   <br />
                   COGECO Cable
@@ -41,7 +41,7 @@ function AboutPage () {
                   <br />
                   Desjardins (for COFOMO)
                   </td>
-                  <td class="textcolumn" align="left" valign="top" width="50%">
+                  <td className="textcolumn" align="left" valign="top" width="50%">
                   <b>ENERGY</b>
                   <br />
                   Hydro-Quebec (for COFOMO)
@@ -57,6 +57,7 @@ function AboutPage () {
                     Elections Quebec (for Transitions Services Conseils)
                   </td>  
               </tr>
+              </tbody>
           </table>  
     </>
     )

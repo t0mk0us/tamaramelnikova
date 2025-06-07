@@ -10,17 +10,18 @@ function EducationPage () {
 
     return (
         <>
-        <table classname="texttable">
+        <table className="texttable">
+          <tbody>
               <tr colSpan="2">
               <td>
                 <br />
             </td> 
-                  <td align="right" width="100%">
+                  <td align="right">
                       <h5>EDUCATION</h5>
                   </td>
               </tr>
               <tr>
-              <td class="textcolumn" align="left" valign="top" width="100px">
+              <td className="textcolumn" align="left" valign="top">
                   <b>Concordia University of Montreal</b> 
                   <br />
                   Study field:&nbsp;<i>Computer Science</i>
@@ -33,13 +34,14 @@ function EducationPage () {
                     <i>(Graduated with Distinction)</i>
                     <br />
                   </td> 
-                  <td class="textcolumn" align="right" valign="top" width="100px">
+                  <td className="textcolumn" align="right" valign="top">
                   <img src={Concordia} alt="Concordia Diplome" width="300" height="200"/> 
                     <br />
                     <img src={GoldenKey} alt="Golden Key Certificate" width="300" height="200"/> 
                     <br />
                   </td>
                   </tr>
+                  </tbody>
           </table>  
     </>
     )

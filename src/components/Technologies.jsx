@@ -3,10 +3,10 @@
 const Technologies = () => {
 
     return (
-        <techno>
-            <h7>
+        <div className="techno">
+            <p className="h7">
             TECHNOLOGIES
-            </h7>
+            </p>
             <p className="p1">
                     Java
                     <br />
@@ -24,7 +24,7 @@ const Technologies = () => {
                    <br />
                   Cybersecurity
         </p>
-        </techno>
+        </div>
     );
 }
 

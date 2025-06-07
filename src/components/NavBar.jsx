@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom';
+/* import { injectIntl, FormattedMessage } from 'react-intl';
+import { addLocaleData, IntlProvider } from 'react-intl';
+import enLocaleData from 'react-intl/locale-data/en';
+import taLocaleData from 'react-intl/locale-data/ta'; */
 
 const NavBar = () => {
 
@@ -7,16 +11,12 @@ const NavBar = () => {
             <ul>
                 <li>
                     <Link to="/about">
-                    <FormattedMessage
-                        id="Home.aboutMessage"
-                        defaultMessage="About" />
+                        About
                     </Link>
                 </li>
                 <li>
                     <Link to="/experience">
-                    <FormattedMessage
-                        id="Home.experienceMessage"
-                        defaultMessage="Experience" />
+                        Experience
                         </Link>
                 </li>
                 <li>

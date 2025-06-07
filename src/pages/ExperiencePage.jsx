@@ -7,7 +7,8 @@ function ExperiencePage () {
 
     return (
         <>
-        <table classname="texttable">
+        <table className="texttable">
+            <tbody>
               <tr colSpan="2">   
               <td>
                 <br />
@@ -17,7 +18,7 @@ function ExperiencePage () {
                   </td>
               </tr>
                 <tr> 
-                  <td class="textcolumn" align="left" valign="top">
+                  <td className="textcolumn" align="left" valign="top">
                   <b>Design4Logic</b> 	
                   <br />mai 2023 – à ce jour
                   <br />
@@ -168,10 +169,9 @@ Développement et maintenance du site web de la compagnie
 •	Tests unitaires avec JUnit
 •	Déploiement des applications sur Tomcat
 •	Intégration des données avec les DTS et ensuite des SSIS sur MSSQL Server
-
-
                   </td>  
               </tr>
+              </tbody>
           </table>  
     </>
     )
