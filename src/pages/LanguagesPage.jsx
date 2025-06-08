@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 //import { useTranslation } from 'react-i18next';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
@@ -6,7 +7,7 @@ import { Link } from 'react-router-dom'; */
 
 function LanguagesPage () {
 
-    // const { t } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <>
@@ -18,10 +19,11 @@ function LanguagesPage () {
                       </td>
                   <td align="right">
                       <h5>                  
-                          Tamara Melnikova 
-                        <br />
-                        Fluent in the following languages
+                        {t('description.languages1')} 
                         </h5>
+                        <h4>                  
+                        {t('description.languages2')} 
+                        </h4>
                   </td>
               </tr>
             
@@ -30,22 +32,30 @@ function LanguagesPage () {
                   <b>LATIN</b> 
                   <br />
                   <br />
-                  {/* {t('description.french')} */}
-                  French
+                  <b>{t('description.french1')}</b>
+                  &nbsp;
+                  {t('description.french2')}
                   <br />
-                  {/* {t('description.english')} */}
-                  English
+                  <b>{t('description.english1')}</b>
+                  &nbsp;
+                  {t('description.english2')}
                   <br />
                   </td>
                   <td className="textcolumn" align="left" valign="top" width="50%">
                   <b>SLAVIC</b>
                   <br />
                   <br />
-                  {/* {t('description.ukrainian')} */}
-                    Ukrainian
+                  <b>{t('description.ukrainian1')}</b>
+                  &nbsp;
+                  {t('description.ukrainian2')}
                   <br />
-                  {/* {t('description.russian')} */}
-                  russian
+                  <b>{t('description.polish1')}</b>
+                  &nbsp;
+                  {t('description.polish2')}
+                  <br />
+                  {t('description.russian1')}
+                  &nbsp;
+                  {t('description.russian2')}
                   <br />
                   </td>  
               </tr>

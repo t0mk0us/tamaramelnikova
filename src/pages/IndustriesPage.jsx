@@ -1,9 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
 
 function AboutPage () {
+
+  const { t } = useTranslation();
 
     return (
         <>
@@ -15,9 +18,7 @@ function AboutPage () {
                       </td>
                   <td align="right" width="90%">
                       <h5>                  
-                         Tamara Melnikova 
-                        <br />
-                        worked in the following industries
+                      {t('description.domains1')} 
                         </h5>
                   </td>
               </tr>        

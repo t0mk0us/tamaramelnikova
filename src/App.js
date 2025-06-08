@@ -5,13 +5,14 @@ import Footer from "./components/Footer.jsx"
 import NavBar from "./components/NavBar.jsx"
 import Projects from "./components/Projects.jsx"
 import AboutPage from "./pages/AboutPage.jsx"
+import TechnologyPage from "./pages/TechnologyPage.jsx"
 import ExperiencePage from "./pages/ExperiencePage.jsx"
 import EducationPage from "./pages/EducationPage.jsx"
 import IndustriesPage from "./pages/IndustriesPage.jsx"
 import LanguagesPage from "./pages/LanguagesPage.jsx"
 import Technologies from "./components/Technologies.jsx";
 import CompMind from "./images/bkgrounds/compMind2.jpg";
-import { useTranslation, Trans } from 'react-i18next';
+//import { useTranslation } from 'react-i18next';
 import i18n from './i18n';
 
 
@@ -23,7 +24,7 @@ const lngs = {
 
 function App() {
 
-  const { t  } = useTranslation();
+  //const { t  } = useTranslation();
 
   return (
     <div className="App">
@@ -80,6 +81,7 @@ function App() {
            <Route exact path="/" element={<Navigate replace to="/about" />} /> 
            <Route exact path="/tomkous-portfolio" element={<Navigate replace to="/about" />} />   
           <Route path="/about" element={< AboutPage />} />
+          <Route path="/technologies" element={< TechnologyPage />} />
           <Route path="/experience" element={< ExperiencePage />} />
           <Route path="/education" element={< EducationPage />} />
           <Route path="/industries" element={< IndustriesPage />} />

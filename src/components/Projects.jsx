@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+
+    const { t } = useTranslation();
 
     return (
         <div className="projects">

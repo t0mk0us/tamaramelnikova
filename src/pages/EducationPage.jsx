@@ -1,12 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
-import Concordia from "../images/diplomeconcordiatm.jpg";
+import Concordia from "../images/Concordia.jpg";
 import GoldenKey from "../images/GoldenKey.jpg";
 
 
 function EducationPage () {
+
+  const { t } = useTranslation();
 
     return (
         <>
@@ -17,27 +20,36 @@ function EducationPage () {
                 <br />
             </td> 
                   <td align="right">
-                      <h5>EDUCATION</h5>
+                      <h5>{t('description.education1')}</h5>
                   </td>
               </tr>
               <tr>
               <td className="textcolumn" align="left" valign="top">
-                  <b>Concordia University of Montreal</b> 
+                  <b>{t('description.diploma')}</b> 
                   <br />
-                  Study field:&nbsp;<i>Computer Science</i>
+                  {t('description.option')}
                   <br />
-                  Option:&nbsp;<i>Computer applications</i>
-                  <br />
-                  <br />
-                    <b>GPA:&nbsp;3.46 (A)</b>
+                  {t('description.gpa')}
+                  <br/>
+                  <i>{t('description.distinction')}</i>
+                  <br/>
+                  <b>{t('description.university')}</b>
+                  <br/>
+                  {t('description.study_period')}
                     <br />
-                    <i>(Graduated with Distinction)</i>
                     <br />
+                    {t('description.honours')}
+                  <br/>
+                  <b>{t('description.goldenkey')}</b>
+                  <br/>
+                  {t('description.gkposition')}
+                  <br />
+                  <br />
                   </td> 
                   <td className="textcolumn" align="right" valign="top">
-                  <img src={Concordia} alt="Concordia Diplome" width="300" height="200"/> 
+                  <img src={Concordia} alt="Concordia Diplome" width="300"/> 
                     <br />
-                    <img src={GoldenKey} alt="Golden Key Certificate" width="300" height="200"/> 
+                    <img src={GoldenKey} alt="Golden Key Certificate" width="300"/> 
                     <br />
                   </td>
                   </tr>

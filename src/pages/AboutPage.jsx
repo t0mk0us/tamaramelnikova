@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
@@ -10,7 +10,7 @@ function AboutPage () {
 
     return (
         <>
-        <table  className="texttable">
+        <table className="texttable">
             <tbody>
               <tr colSpan="2">
                   <td>
@@ -19,9 +19,14 @@ function AboutPage () {
                   <td align="right">
                       <h5>                  
                           Tamara Melnikova 
-                        <br />
-                        tamara9@rogers.com
-                        </h5>
+                        </h5> 
+                        <h4>          
+                        {t('description.email')}
+                        <br/>
+                        {t('description.phone')}
+                        <br/>
+                        {t('description.linkedin')}                  
+                        </h4>   
                   </td>
               </tr>
             
