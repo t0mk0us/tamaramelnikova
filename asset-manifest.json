@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/tomkous-portfolio/static/css/main.e05c48c5.css",
-    "main.js": "/tomkous-portfolio/static/js/main.926ccdbd.js",
-    "static/js/453.3d945b00.chunk.js": "/tomkous-portfolio/static/js/453.3d945b00.chunk.js",
-    "static/media/diplomeconcordiatm.jpg": "/tomkous-portfolio/static/media/diplomeconcordiatm.f1294ff9b05c11d39dc3.jpg",
-    "static/media/GoldenKey.jpg": "/tomkous-portfolio/static/media/GoldenKey.73585037aabf13a508a3.jpg",
-    "static/media/OcenWater2.jpg": "/tomkous-portfolio/static/media/OcenWater2.a8f17c948cedee4fd99e.jpg",
-    "static/media/WayToLight.jpg": "/tomkous-portfolio/static/media/WayToLight.af5db8e8610021607bc6.jpg",
-    "static/media/compMind2.jpg": "/tomkous-portfolio/static/media/compMind2.6dc29175ee9cd90af5b9.jpg",
-    "static/media/D4LogicLogo.jpg": "/tomkous-portfolio/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
-    "index.html": "/tomkous-portfolio/index.html",
-    "main.e05c48c5.css.map": "/tomkous-portfolio/static/css/main.e05c48c5.css.map",
-    "main.926ccdbd.js.map": "/tomkous-portfolio/static/js/main.926ccdbd.js.map",
-    "453.3d945b00.chunk.js.map": "/tomkous-portfolio/static/js/453.3d945b00.chunk.js.map"
+    "main.css": "/tamaramelnikova/static/css/main.51dc79c4.css",
+    "main.js": "/tamaramelnikova/static/js/main.90eade43.js",
+    "static/js/453.3d945b00.chunk.js": "/tamaramelnikova/static/js/453.3d945b00.chunk.js",
+    "static/media/Concordia.jpg": "/tamaramelnikova/static/media/Concordia.a7105815f1b1bf3cd7b7.jpg",
+    "static/media/GoldenKey.jpg": "/tamaramelnikova/static/media/GoldenKey.e9ce9116937d3ee0d922.jpg",
+    "static/media/OcenWater2.jpg": "/tamaramelnikova/static/media/OcenWater2.a8f17c948cedee4fd99e.jpg",
+    "static/media/WayToLight.jpg": "/tamaramelnikova/static/media/WayToLight.af5db8e8610021607bc6.jpg",
+    "static/media/compMind2.jpg": "/tamaramelnikova/static/media/compMind2.6dc29175ee9cd90af5b9.jpg",
+    "static/media/D4LogicLogo.jpg": "/tamaramelnikova/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
+    "index.html": "/tamaramelnikova/index.html",
+    "main.51dc79c4.css.map": "/tamaramelnikova/static/css/main.51dc79c4.css.map",
+    "main.90eade43.js.map": "/tamaramelnikova/static/js/main.90eade43.js.map",
+    "453.3d945b00.chunk.js.map": "/tamaramelnikova/static/js/453.3d945b00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e05c48c5.css",
-    "static/js/main.926ccdbd.js"
+    "static/css/main.51dc79c4.css",
+    "static/js/main.90eade43.js"
   ]
 }
