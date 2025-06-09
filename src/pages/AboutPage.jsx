@@ -17,16 +17,20 @@ function AboutPage () {
                       <br />
                       </td>
                   <td align="right">
-                      <h5>                  
+                  <br/>
+                  <br/>
+                      <div className="section_title">                  
                           Tamara Melnikova 
-                        </h5> 
-                        <h4>          
+                        </div>
+                        <div className="section_subtitle">          
                         {t('description.email')}
                         <br/>
                         {t('description.phone')}
                         <br/>
                         {t('description.linkedin')}                  
-                        </h4>   
+                        </div>  
+                        <br/>
+                  <br/>
                   </td>
               </tr>
             

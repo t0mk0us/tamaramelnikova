@@ -14,7 +14,12 @@ function ExperiencePage () {
             <tbody>
               <tr>                
                   <td align="right">
-                      <h5>{t('description.experiences1')} </h5>
+                  <br/>
+                  <br/>
+                      <div className="section_title">
+                      {t('description.experiences1')} </div>
+                      <br/>
+                  <br/>
                   </td>
               </tr>
                 <tr> 

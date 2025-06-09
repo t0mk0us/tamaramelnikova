@@ -20,7 +20,12 @@ function EducationPage () {
                 <br />
             </td> 
                   <td align="right">
-                      <h5>{t('description.education1')}</h5>
+                  <br/>
+                  <br/>
+                      <div className="section_title"> 
+                      {t('description.education1')}</div>
+                      <br/>
+                  <br/>
                   </td>
               </tr>
               <tr>
@@ -46,10 +51,10 @@ function EducationPage () {
                   <br />
                   <br />
                   </td> 
-                  <td className="textcolumn" align="right" valign="top">
+                  <td className="textcolumn" align="left" valign="top">
                   <img src={Concordia} alt="Concordia Diplome" width="300"/> 
-                    <br />
-                    <img src={GoldenKey} alt="Golden Key Certificate" width="300"/> 
+                   &nbsp;
+                    <img src={GoldenKey} alt="Golden Key Certificate" width="290"/> 
                     <br />
                   </td>
                   </tr>

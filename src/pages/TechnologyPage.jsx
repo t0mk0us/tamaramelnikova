@@ -14,7 +14,13 @@ function TechnologyPage () {
             <tbody>
               <tr>                
                   <td align="right">
-                      <h5>{t('description.technologies1')} </h5>
+                  <br/>
+                  <br/>
+                      <div className="section_title"> 
+                      {t('description.technologies1')} 
+                      </div>
+                      <br/>
+                  <br/>
                   </td>
               </tr>
                 <tr> 

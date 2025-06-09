@@ -3,6 +3,12 @@ import { useTranslation } from 'react-i18next';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
+import TelecomLogo from "../images/logos/telecom.jpg";
+import BankingLogo from "../images/logos/banking.png";
+import RetailLogo from "../images/logos/retaillogo.png";
+import EnergyLogo from "../images/logos/energy.png";
+import InsuranceLogo from "../images/logos/insurance.png";
+import GovernementLogo from "../images/logos/governement.png";
 
 function AboutPage () {
 
@@ -10,52 +16,86 @@ function AboutPage () {
 
     return (
         <>
-        <table className="texttable">
+        <table className="texttable" border="0">
           <tbody>
-              <tr colSpan="2">
+              <tr colSpan="4">
                   <td>
                       <br />
                       </td>
-                  <td align="right" width="90%">
-                      <h5>                  
+                  <td colSpan='3' align="right" width="90%">
+                  <br/>
+                  <br/>
+                      <div className="section_title">                  
                       {t('description.domains1')} 
-                        </h5>
+                        </div>
+                        <br/>
+                  <br/>
                   </td>
               </tr>        
                 <tr> 
-                  <td className="textcolumn" align="left" valign="top" width="50%">
-                  <b>TELECOMMUNICATIONS</b> 
-                  <br />
-                  COGECO Cable
+                  <td width="5%" align='right'>
+                  <img src={TelecomLogo} alt="Telecom Logo" width="40"/>
                   <br />
                   <br />
-                  <b>RETAIL</b>
                   <br />
-                  Reitmans Lmtd
+                  <img src={EnergyLogo} alt="Energy Logo" width="50"/>
+                  <p>
+                 </p>
+                  <img src={InsuranceLogo} alt="Telecom Logo" width="50"/>
+                    </td>
+                  <td className="textcolumn" align="left" valign="top" width="45%">
+                  <b>{t('description.domain1')}</b> 
+                  <br />
+                  {t('description.domain1_company1')} 
+                  <br />
+                  {t('description.domain1_company2')} 
                   <br />
                   <br />
-                  <b>BANKING</b>
+                  <b>{t('description.domain4')}</b>
                   <br />
-                  Deutsche Bank (for CGI)
+                  {t('description.domain4_company1')}
                   <br />
-                  Laurentian Bank (for CGI)
                   <br />
-                  Desjardins (for COFOMO)
+                    <b>{t('description.domain5')}</b>
+                  <br />
+                  {t('description.domain5_company1')}
+                  <br />         
                   </td>
-                  <td className="textcolumn" align="left" valign="top" width="50%">
-                  <b>ENERGY</b>
-                  <br />
-                  Hydro-Quebec (for COFOMO)
+                  <td width="5%" align='right'>
+                  <img src={BankingLogo} alt="Banking Logo" width="50"/>
                   <br />
                   <br />
-                    <b>INSURANCE</b>
+                 <p classname='section_title'> &nbsp;&nbsp;&nbsp;
+                 </p>
+                  <img src={RetailLogo} alt="Retail Logo" width="55"/>
+                  <p>
+                 </p>
+                  <p>
+                 </p>
+                  <img src={GovernementLogo} alt="Gouvernement Logo" width="50"/>
                   <br />
-                    Humania Assurance
+                  <br />
+                    </td>
+                  <td className="textcolumn" align="left" valign="top" width="45%">
+                  <b>{t('description.domain2')}</b>
+                  <br />
+                  {t('description.domain2_company1')}
+                  <br />
+                  {t('description.domain2_company2')}
+                  <br />
+                  {t('description.domain2_company3')}
+                  <br />
+                  {t('description.domain2_company4')}
                   <br />
                   <br />
-                    <b>GOVERNEMENT</b>
+                  <b>{t('description.domain3')}</b>
+                  <br />
+                  {t('description.domain3_company1')}
+                  <br />
+                  <br />
+                    <b>{t('description.domain6')}</b>
                     <br />
-                    Elections Quebec (for Transitions Services Conseils)
+                  {t('description.domain6_company1')}
                   </td>  
               </tr>
               </tbody>

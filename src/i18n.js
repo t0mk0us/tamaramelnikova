@@ -24,25 +24,17 @@ i18n
   .init({
 
     debug: true,
-
     fallbackLng: 'en',
 
     interpolation: {
-
       escapeValue: false, // not needed for react as it escapes by default
-
     },
 
     resources: {
-
       en: {
-
         translation: {
-
           description: {
-
             part1: 'Edit <1>src/App.js</1> and save to reload.',
-
             part2: 'Learn React',
             about: 'ABOUT',
             technologies: 'TECHNOLOGIES',
@@ -150,6 +142,22 @@ i18n
             location11: ' | New York',
             note11: '(Consultant for CGI)',
             task11: 'Developed, maintained, and des solved complex technical problems of  Deutsche Bank’s investment platform treating millions of investment transactions every day.',
+            domain1: 'TELECOMMUNICATIONS',
+            domain1_company1: 'COGECO Cable',
+            domain1_company2: 'Rogers Media',
+            domain2: 'BANKING',
+            domain2_company1: 'Deutsche Bank',
+            domain2_company2: 'Laurentian Bank',
+            domain2_company3: 'Desjardins',
+            domain2_company4: 'National Bank of Canada',
+            domain3: 'RETAIL',
+            domain3_company1: 'Reitmans Lmtd',
+            domain4: 'ELECTRIC ENERGY',
+            domain4_company1: 'Hydro-Qu/bec',
+            domain5: 'INSURANCE',
+            domain5_company1: 'Humania Assurance',
+            domain6: 'GOVERNEMENT',
+            domain6_company1: 'Élections Québec',
             french1: 'French',
             french2: '(Full professional proficiency)',
             english1: 'English',
@@ -182,17 +190,12 @@ i18n
             project9: 'URL Shortener',
             project10: 'Bank App Authorization (OAuth2)'
           }
-
         }
-
       },
 
       fr: {
-
         translation: {
-
           description: {
-
             part1: 'Éditez <1>src/App.js</1> et sauvez pour recharger.',
             part2: 'Apprenez React',
             about: 'À PROPOS',
@@ -301,6 +304,22 @@ i18n
             location11: '',
             note11: '',
             task11: '',
+            domain1: 'TELECOMMUNICATIONS',
+            domain1_company2: 'COGECO Cable',
+            domain1_company1: 'Rogers Média',
+            domain2: 'BANQUAIRE',
+            domain2_company1: 'Deutsche Bank',
+            domain2_company2: 'Banque Laurentienne',
+            domain2_company3: 'Desjardins',
+            domain2_company4: 'Banque Nationale du Canada',
+            domain3: 'COMMERCE DE DÉTAILS',
+            domain3_company1: 'Reitmans Ltée',
+            domain4: 'ÉNERGIE ÉLECTRIQUE',
+            domain4_company1: 'Hydro-Québec',
+            domain5: 'ASSURANCE',
+            domain5_company1: 'Humania Assurance',
+            domain6: 'GOUVERNEMENT',
+            domain6_company1: 'Élections Québec',
             french1: 'Français',
             french2: '(Maîtrise professionnelle complète)',
             english1: 'Anglais',
@@ -321,9 +340,9 @@ i18n
             honours: 'HONNEURS ET RECOMPENSES',
             goldenkey: 'Société internationale d\'honneur Golden Key',
             gkposition: 'Webmestre et membre de la société',
-            projects: 'PROJECTS',
-            project1: 'Bank application back-end in Java',
-            project2: 'Bank application front-end in React',
+            projects: 'PROJETS',
+            project1: 'Back-end de la Bank appli en Java',
+            project2: 'Front-end de la Bank appli en React',
             project3: 'Algorithmes',
             project4: 'Microservices',
             project5: 'Microsoft Azure',
@@ -333,13 +352,9 @@ i18n
             project9: 'URL Shortener',
             project10: 'Bank App Authorization (OAuth2)'
           }
-
         }
-
       }
-
     }
-
   });
 
 

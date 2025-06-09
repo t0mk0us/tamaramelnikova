@@ -18,12 +18,16 @@ function LanguagesPage () {
                       <br />
                       </td>
                   <td align="right">
-                      <h5>                  
+                  <br/>
+                  <br/>
+                      <div className="section_title">                 
                         {t('description.languages1')} 
-                        </h5>
-                        <h4>                  
+                        </div>
+                      <div className="section_subtitle">                 
                         {t('description.languages2')} 
-                        </h4>
+                        <br/>
+                  <br/>
+                        </div>
                   </td>
               </tr>
             

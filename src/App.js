@@ -12,7 +12,7 @@ import IndustriesPage from "./pages/IndustriesPage.jsx"
 import LanguagesPage from "./pages/LanguagesPage.jsx"
 import Technologies from "./components/Technologies.jsx";
 import CompMind from "./images/bkgrounds/compMind2.jpg";
-//import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import i18n from './i18n';
 
 
@@ -21,39 +21,38 @@ const lngs = {
   fr: { nativeName: 'Français' }
 };
 
-
 function App() {
 
-  //const { t  } = useTranslation();
+  const { t  } = useTranslation();
 
   return (
     <div className="App">
- {/*      <header className="App-header">
-        <div>
-
-          {Object.keys(lngs).map((lng) => (
-
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-
-              {lngs[lng].nativeName}
-
-            </button>
-
-          ))}
-
-        </div>
-      <p>
-<Trans i18nKey="description.part1">
-  Edit <code>src/App.js</code> and save to reload.
-</Trans>
-</p>
-<a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-  {t('description.part2')}
-</a>
-</header> */}
         <table>
           <tbody>
-          <tr>
+{/* <header className="App-header">
+ <img src={logo} className="App-logo" alt="logo" />
+  <div>
+    {Object.keys(lngs).map((lng) => (
+      <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+        {lngs[lng].nativeName}
+      </button>
+    ))}
+  </div>
+  <p>
+    <Trans i18nKey="description.part1">
+      Edit <code>src/App.js</code> and save to reload.
+    </Trans>
+  </p>
+  <a
+    className="App-link"
+    href="https://reactjs.org"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {t('description.part2')}
+  </a>
+</header> */}
+      <tr>
         <td className="logo">
           <img src={logo} alt="Design4Logic logo" width="200"/> 
         </td>
@@ -79,7 +78,7 @@ function App() {
             <div id="page-body">
         <Routes>
            <Route exact path="/" element={<Navigate replace to="/about" />} /> 
-           <Route exact path="/tomkous-portfolio" element={<Navigate replace to="/about" />} />   
+           <Route exact path="/tamaramelnikova" element={<Navigate replace to="/about" />} />   
           <Route path="/about" element={< AboutPage />} />
           <Route path="/technologies" element={< TechnologyPage />} />
           <Route path="/experience" element={< ExperiencePage />} />

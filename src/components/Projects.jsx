@@ -7,38 +7,39 @@ const Projects = () => {
 
     return (
         <div className="projects">
-                <h3>PROJECTS
+            
+                <h3>{t('description.projects')} 
                     </h3>
                 <Link to="https://github.com/t0mk0us/BankApplication" className="my-link">
-                        Bank application back-end in Java
+                    {t('description.project1')}
                     </Link>
                     <br/>
                     <Link to="https://github.com/t0mk0us/bank-frontend-react"  className="my-link">
-                        Bank application front-end in React
+                        {t('description.project2')}
                     </Link>
                     <br />
                     <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">                    
-                        Algorithms
-                        </Link>
+                        {t('description.project3')}
+                    </Link>
                     <br />
                     <Link to="https://github.com/t0mk0us/microservices"  className="my-link">
-                        Microservices
+                    {t('description.project4')}
                         </Link>
                     <br />                
                     <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">
-                        Microsoft Azure
+                    {t('description.project5')}
                         </Link>
                     <br />
                     <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">
-                    Load Balancer
+                    {t('description.project6')}
                     </Link>
                     <br />
                     <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">
-                    URL shortener
+                    {t('description.project7')}
                     </Link>
                     <br />
                     <Link to="https://github.com/t0mk0us/bank-auth0/tree/master"  className="my-link">
-                    Bank App Authorization (OAuth2)
+                    {t('description.project8')}
                     </Link>
                     <br />
         </div>
