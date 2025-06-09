@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tamaramelnikova/static/css/main.51dc79c4.css",
-    "main.js": "/tamaramelnikova/static/js/main.db5e362b.js",
+    "main.css": "/tamaramelnikova/static/css/main.f4f45fd9.css",
+    "main.js": "/tamaramelnikova/static/js/main.9849e908.js",
     "static/js/453.6c425adc.chunk.js": "/tamaramelnikova/static/js/453.6c425adc.chunk.js",
     "static/media/Concordia.jpg": "/tamaramelnikova/static/media/Concordia.a7105815f1b1bf3cd7b7.jpg",
     "static/media/GoldenKey.jpg": "/tamaramelnikova/static/media/GoldenKey.e9ce9116937d3ee0d922.jpg",
@@ -10,12 +10,12 @@
     "static/media/compMind2.jpg": "/tamaramelnikova/static/media/compMind2.6dc29175ee9cd90af5b9.jpg",
     "static/media/D4LogicLogo.jpg": "/tamaramelnikova/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
     "index.html": "/tamaramelnikova/index.html",
-    "main.51dc79c4.css.map": "/tamaramelnikova/static/css/main.51dc79c4.css.map",
-    "main.db5e362b.js.map": "/tamaramelnikova/static/js/main.db5e362b.js.map",
+    "main.f4f45fd9.css.map": "/tamaramelnikova/static/css/main.f4f45fd9.css.map",
+    "main.9849e908.js.map": "/tamaramelnikova/static/js/main.9849e908.js.map",
     "453.6c425adc.chunk.js.map": "/tamaramelnikova/static/js/453.6c425adc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51dc79c4.css",
-    "static/js/main.db5e362b.js"
+    "static/css/main.f4f45fd9.css",
+    "static/js/main.9849e908.js"
   ]
 }
