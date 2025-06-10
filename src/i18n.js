@@ -141,7 +141,7 @@ i18n
             company11: 'Deutsche Bank',
             location11: ' | New York',
             note11: '(Consultant for CGI)',
-            task11: 'Developed, maintained, and des solved complex technical problems of  Deutsche Bank’s investment platform treating millions of investment transactions every day.',
+            task11: 'Found root causes and recommended solutions of complex technical problems of  Deutsche Bank’s investment platform processing millions of investment transactions every day.',
             domain1: 'TELECOMMUNICATIONS',
             domain1_company1: 'COGECO Cable',
             domain1_company2: 'Rogers Media',
