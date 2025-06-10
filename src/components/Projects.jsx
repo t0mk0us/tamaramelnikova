@@ -25,21 +25,17 @@ const Projects = () => {
                     <Link to="https://github.com/t0mk0us/microservices"  className="my-link">
                     {t('description.project4')}
                         </Link>
-                    <br />                
-                    <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">
-                    {t('description.project5')}
-                        </Link>
                     <br />
-                    <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">
-                    {t('description.project6')}
+                    <Link to="https://github.com/t0mk0us/loadbalacer"  className="my-link">
+                    {t('description.project8')}
                     </Link>
                     <br />
-                    <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">
-                    {t('description.project7')}
+                    <Link to="https://github.com/t0mk0us/shortenurl/tree/master"  className="my-link">
+                    {t('description.project9')}
                     </Link>
                     <br />
                     <Link to="https://github.com/t0mk0us/bank-auth0/tree/master"  className="my-link">
-                    {t('description.project8')}
+                    {t('description.project10')}
                     </Link>
                     <br />
         </div>

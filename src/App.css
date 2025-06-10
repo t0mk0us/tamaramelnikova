@@ -100,7 +100,7 @@ h5{
 .section_title{
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-size: 28px;
-  font-weight: lighter;
+  font-weight: normal;
   color: rgb(33, 144, 196);
 /*   margin-left: 0px;
   padding-left: 0px; */
@@ -215,7 +215,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-  font-weight: normal;
+  font-weight: bold;
   padding-left: 32px;
   padding-right: 32px;
 }

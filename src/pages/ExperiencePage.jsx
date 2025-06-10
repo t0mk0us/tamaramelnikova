@@ -41,8 +41,8 @@ function ExperiencePage () {
                   <b>{t('description.company2')}</b>
                   {t('description.location2')}
                   <br />
-                  <i>{t('description.note2')}</i>
-                  <br />
+{/*                   <i>{t('description.note2')}</i>
+                  <br /> */}
                   {t('description.task2')} 
                     <br />
                     <br />
@@ -63,8 +63,8 @@ function ExperiencePage () {
                   <b>{t('description.company4')}</b>
                   {t('description.location4')}
                   <br />
-                  <i>{t('description.note4')}</i>
-                  <br />
+{/*                   <i>{t('description.note4')}</i>
+                  <br /> */}
                   {t('description.task4')} 
                   <br />
                 <br />
@@ -85,8 +85,8 @@ function ExperiencePage () {
                   <b>{t('description.company6')}</b>
                   {t('description.location6')}
                   <br />
-                  <i>{t('description.note6')}</i>
-                  <br />
+{/*                   <i>{t('description.note6')}</i>
+                  <br /> */}
                   {t('description.task6')}
                   <br />
                 <br />
@@ -107,8 +107,8 @@ function ExperiencePage () {
                   <b>{t('description.company8')}</b>
                   {t('description.location8')}
                   <br />
-                  <i>{t('description.note8')}</i>
-                  <br />
+{/*                   <i>{t('description.note8')}</i>
+                  <br /> */}
                   {t('description.task8')}
                   <br />
                 <br />
@@ -118,8 +118,8 @@ function ExperiencePage () {
                   <b>{t('description.company9')}</b>
                   {t('description.location9')}
                   <br />
-                  <i>{t('description.note9')}</i>
-                  <br />
+{/*                   <i>{t('description.note9')}</i>
+                  <br /> */}
                   {t('description.task9')}
                   <br />
                 <br />
@@ -143,28 +143,6 @@ function ExperiencePage () {
                   <i>{t('description.note11')}</i>
                   <br />
                   {t('description.task11')}
-                  <br />
-                <br />
-                    <b>{t('description.experience12')}</b> 	
-                  {t('description.work_period12')}
-                  <br />
-                  <b>{t('description.company12')}</b>
-                  {t('description.location12')}
-                  <br />
-                  <i>{t('description.note12')}</i>
-                  <br />
-                  {t('description.task12')}
-                  <br />
-                <br />
-                    <b>{t('description.experience13')}</b> 	
-                  {t('description.work_period13')}
-                  <br />
-                  <b>{t('description.company13')}</b>
-                  {t('description.location13')}
-                  <br />
-                  <i>{t('description.note13')}</i>
-                  <br />
-                  {t('description.task13')}
                   </td>  
               </tr>
               </tbody>

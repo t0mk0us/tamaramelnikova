@@ -33,7 +33,7 @@ function LanguagesPage () {
             
                 <tr> 
                 <td className="textcolumn" align="left" valign="top" width="50%">
-                  <b>LATIN</b> 
+                  <b>{t('description.latin')}</b> 
                   <br />
                   <br />
                   <b>{t('description.french1')}</b>
@@ -46,7 +46,7 @@ function LanguagesPage () {
                   <br />
                   </td>
                   <td className="textcolumn" align="left" valign="top" width="50%">
-                  <b>SLAVIC</b>
+                  <b>{t('description.slavic')}</b>
                   <br />
                   <br />
                   <b>{t('description.ukrainian1')}</b>
