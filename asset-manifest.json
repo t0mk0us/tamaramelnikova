@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tamaramelnikova/static/css/main.d974545e.css",
-    "main.js": "/tamaramelnikova/static/js/main.7f508b84.js",
+    "main.js": "/tamaramelnikova/static/js/main.da4af1f7.js",
     "static/js/453.6c425adc.chunk.js": "/tamaramelnikova/static/js/453.6c425adc.chunk.js",
     "static/media/Concordia.jpg": "/tamaramelnikova/static/media/Concordia.a7105815f1b1bf3cd7b7.jpg",
     "static/media/GoldenKey.jpg": "/tamaramelnikova/static/media/GoldenKey.e9ce9116937d3ee0d922.jpg",
@@ -17,11 +17,11 @@
     "static/media/D4LogicLogo.jpg": "/tamaramelnikova/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
     "index.html": "/tamaramelnikova/index.html",
     "main.d974545e.css.map": "/tamaramelnikova/static/css/main.d974545e.css.map",
-    "main.7f508b84.js.map": "/tamaramelnikova/static/js/main.7f508b84.js.map",
+    "main.da4af1f7.js.map": "/tamaramelnikova/static/js/main.da4af1f7.js.map",
     "453.6c425adc.chunk.js.map": "/tamaramelnikova/static/js/453.6c425adc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d974545e.css",
-    "static/js/main.7f508b84.js"
+    "static/js/main.da4af1f7.js"
   ]
 }
