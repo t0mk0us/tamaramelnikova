@@ -369,6 +369,10 @@ button:hover {
   padding-left: 12px;
 }
 
+.p1:hover {
+  color: #fce9b1;
+}
+
 .my-link {
   color: rgb(40, 153, 182);
   text-decoration: none;
@@ -378,4 +382,27 @@ button:hover {
 
 .my-link:hover {
   color: #97750e;
+}
+
+.linkedin-link {
+  font-size: 18px;
+  color: #125c99;
+  font-weight: 400;
+
+  text-decoration: none;
+}
+
+.linkedin-link:hover {
+  color: rgb(40, 153, 182);
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  padding-left: 4px;
+}
+
+.contact-link:hover {
+  color: #87eda2;
 }

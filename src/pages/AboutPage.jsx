@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
@@ -27,7 +28,7 @@ function AboutPage () {
                         <br/>
                         {t('description.phone')}
                         <br/>
-                        {t('description.linkedin')}                  
+                        {t('description.linkedin')}              
                         </div>  
                         <br/>
                   <br/>

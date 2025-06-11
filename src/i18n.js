@@ -190,7 +190,9 @@ i18n
             project7: 'AWS Lambda',
             project8: 'Load Balancer',
             project9: 'URL Shortener',
-            project10: 'Bank App Authorization (OAuth2)'
+            project10: 'Bank App Authorization (OAuth2)',
+            contact_email: 'Contact by email',
+            contact_phone: 'Contact by phone'
           }
         }
       },
@@ -355,7 +357,9 @@ i18n
             project7: 'AWS Lambda',
             project8: 'Load Balancer',
             project9: 'URL Shortener',
-            project10: 'Authorization pour appli Bank (OAuth2)'
+            project10: 'Authorization pour appli Bank (OAuth2)',
+            contact_email: 'Contact par courriel',
+            contact_phone: 'Contact par téléphone'
           }
         }
       }
