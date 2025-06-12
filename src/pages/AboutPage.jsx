@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
+import EmailComponent from '../components/EmailComponent';
+import PhoneComponent from '../components/PhoneComponent';
+import LinkedInComponent from '../components/LinkedInComponent';
 
 function AboutPage () {
 
@@ -23,12 +26,19 @@ function AboutPage () {
                       <div className="section_title">                  
                           Tamara Melnikova 
                         </div>
-                        <div className="section_subtitle">          
-                        {t('description.email')}
-                        <br/>
-                        {t('description.phone')}
-                        <br/>
-                        {t('description.linkedin')}              
+                        <div className="section_subtitle">                                
+
+                            <EmailComponent email='tamara9@rogers.com' className='linkedin-link'>
+                                {t('description.email')}
+                                </EmailComponent>
+                                        <br />
+                            <PhoneComponent phone='5147426851' className='linkedin-link'>
+                               {t('description.phone')}
+                                </PhoneComponent>   
+                                <br />
+                            <LinkedInComponent linkedin='https://linkedin.com/in/tamaram' className='linkedin-link'>
+                                {t('description.linkedin')}
+                                </LinkedInComponent>                                     
                         </div>  
                         <br/>
                   <br/>
@@ -51,20 +61,6 @@ function AboutPage () {
                   <br/>
                   {t('description.profile5')}
                   {/* {t('description.cv1')}                 */}
-                  {/* Professionnelle confirmée avec expérience de plus de 15 années en technologies Java 
-Travaillait dans tous les étapes de SDLC. */}
-{/* </Trans>
-<Trans i18nKey="description.cv2"> */}
-{/* {t('description.cv2')} */}
-{/* Développement, intégration et maintien des application Web pour différentes industries. */}
-{/* </Trans>
-<Trans i18nKey="description.cv3"> */}
-{/* {t('description.cv3')} */}
-{/* Collaboration avec des équipes internationales aux États-Unis, Royaume Uni, Inde, etc. */}
-{/* </Trans> */}
-{/* <Trans i18nKey="description.languages"> */}
-{/* {t('description.languages')} */}
-{/* </Trans> */}
                   <br />
                   <br />
                   </td>

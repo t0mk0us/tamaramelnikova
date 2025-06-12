@@ -8,7 +8,7 @@ const EmailComponent = ({ email, subject = "Message from your WEB site", body = 
         )}`
       : "";
 
-  return <a href={`mailto:${email}${params}`}  className="contact-link">{children}</a>;
+  return <a href={`mailto:${email}${params}`}  className="linkedin-link">{children}</a>;
 };
 
 export default EmailComponent;

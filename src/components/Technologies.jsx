@@ -29,15 +29,6 @@ const Technologies = () => {
                    <br />
                   Cybersecurity
         </p>
-        <p className='p1'>
-            <br />
-            <br />
-            <EmailComponent email='tamara9@rogers.com' className='my-link'>
-                
-                {t('description.contact_email')}</EmailComponent>
-            <br />
-            <PhoneComponent phone='5147426851' className='my-link'>{t('description.contact_phone')}</PhoneComponent>
-        </p>
         </div>
     );
 }
