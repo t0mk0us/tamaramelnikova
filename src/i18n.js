@@ -191,7 +191,7 @@ i18n
             project8: 'Load Balancer',
             project9: 'URL Shortener',
             project10: 'Bank App Authorization (OAuth2)',
-            project11: 'Bank App Node.js',
+            project11: 'Bank App in Node.js',
             contact_email: 'Contact by email',
             contact_phone: 'Contact by phone'
           }
@@ -359,7 +359,7 @@ i18n
             project8: 'Load Balancer',
             project9: 'URL Shortener',
             project10: 'Authorization pour appli Bank (OAuth2)',
-            project11: 'Appli Bank Node.js',
+            project11: 'Appli Bank en Node.js',
             contact_email: 'Contact par courriel',
             contact_phone: 'Contact par téléphone'
           }
