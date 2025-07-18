@@ -38,7 +38,7 @@ const Projects = () => {
                     {t('description.project10')}
                     </Link>
                      <br />
-                    <Link to="https://github.com/t0mk0us/bank-mvc-node/blob/master/model/index.js"  className="my-link">
+                    <Link to="https://github.com/t0mk0us/bank-mvc-node"  className="my-link">
                     {t('description.project11')}
                     </Link>
                     <br />
