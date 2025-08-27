@@ -14,7 +14,7 @@ const Projects = () => {
                     {t('description.project1')}
                     </Link>
                     <br/>
-                    <Link to="https://github.com/t0mk0us/bank-frontend-react"  className="my-link">
+                    <Link to="https://github.com/t0mk0us/bankapp-frontend-react"  className="my-link">
                         {t('description.project2')}
                     </Link>
                     <br />
