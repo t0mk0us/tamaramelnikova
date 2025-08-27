@@ -26,7 +26,7 @@ const Projects = () => {
                     {t('description.project4')}
                         </Link>
                     <br />
-                    <Link to="https://github.com/t0mk0us/loadbalacer"  className="my-link">
+                    <Link to="https://github.com/t0mk0us/loadbalancer"  className="my-link">
                     {t('description.project8')}
                     </Link>
                     <br />
