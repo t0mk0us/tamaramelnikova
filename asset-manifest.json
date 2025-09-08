@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tamaramelnikova/static/css/main.5c3be0e1.css",
+    "main.js": "/tamaramelnikova/static/js/main.06c20f8d.js",
+    "static/js/453.fbbf3785.chunk.js": "/tamaramelnikova/static/js/453.fbbf3785.chunk.js",
+    "static/media/Concordia.jpg": "/tamaramelnikova/static/media/Concordia.20dcc0afdb09eaba9dd2.jpg",
+    "static/media/GoldenKey.jpg": "/tamaramelnikova/static/media/GoldenKey.73585037aabf13a508a3.jpg",
+    "static/media/OcenWater2.jpg": "/tamaramelnikova/static/media/OcenWater2.a8f17c948cedee4fd99e.jpg",
+    "static/media/WayToLight.jpg": "/tamaramelnikova/static/media/WayToLight.af5db8e8610021607bc6.jpg",
+    "static/media/banking.png": "/tamaramelnikova/static/media/banking.ba48801edb4dfc767510.png",
+    "static/media/insurance.png": "/tamaramelnikova/static/media/insurance.5b51faee1bc88259847b.png",
+    "static/media/governement.png": "/tamaramelnikova/static/media/governement.acabf480e869720a20f7.png",
+    "static/media/telecom.jpg": "/tamaramelnikova/static/media/telecom.ac475f83b593b58ffb1b.jpg",
+    "static/media/compMind2.jpg": "/tamaramelnikova/static/media/compMind2.6dc29175ee9cd90af5b9.jpg",
+    "static/media/retaillogo.png": "/tamaramelnikova/static/media/retaillogo.6879e6e50a88e052b5ab.png",
+    "static/media/energy.png": "/tamaramelnikova/static/media/energy.3b46c9be81055ed75ee2.png",
+    "static/media/D4LogicLogo.jpg": "/tamaramelnikova/static/media/D4LogicLogo.23cfeda07e77a61b1765.jpg",
+    "index.html": "/tamaramelnikova/index.html",
+    "main.5c3be0e1.css.map": "/tamaramelnikova/static/css/main.5c3be0e1.css.map",
+    "main.06c20f8d.js.map": "/tamaramelnikova/static/js/main.06c20f8d.js.map",
+    "453.fbbf3785.chunk.js.map": "/tamaramelnikova/static/js/453.fbbf3785.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c3be0e1.css",
+    "static/js/main.06c20f8d.js"
+  ]
+}
