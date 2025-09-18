@@ -1,5 +1,3 @@
-import CurrentDateDisplay from './CurrentDateDisplay';
-
 function Footer() {
 
   const currentYear = new Date().getFullYear;

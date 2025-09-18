@@ -1,6 +1,3 @@
-//import { Link } from 'react-router-dom';
-import EmailComponent from './EmailComponent';
-import PhoneComponent from './PhoneComponent';
 import { useTranslation } from 'react-i18next';
 
 const Technologies = () => {
