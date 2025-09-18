@@ -37,10 +37,12 @@ function AboutPage () {
                   <img src={TelecomLogo} alt="Telecom Logo" width="40"/>
                   <br />
                   <br />
-                  <br />
-                  <img src={EnergyLogo} alt="Energy Logo" width="50"/>
                   <p>
+                    &nbsp;
                  </p>
+                  <img src={EnergyLogo} alt="Energy Logo" width="50"/>
+                  <br />
+    <br />
                   <img src={InsuranceLogo} alt="Telecom Logo" width="50"/>
                     </td>
                   <td className="textcolumn" align="left" valign="top" width="45%">
@@ -65,13 +67,14 @@ function AboutPage () {
                   <img src={BankingLogo} alt="Banking Logo" width="50"/>
                   <br />
                   <br />
+                  <br />
+                  <p>
+                 </p>
                  <p classname='section_title'> &nbsp;&nbsp;&nbsp;
                  </p>
                   <img src={RetailLogo} alt="Retail Logo" width="55"/>
-                  <p>
-                 </p>
-                  <p>
-                 </p>
+         <br />
+         <br />
                   <img src={GovernementLogo} alt="Gouvernement Logo" width="50"/>
                   <br />
                   <br />

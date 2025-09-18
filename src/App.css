@@ -296,7 +296,10 @@ th, td {
 }
 
 .techno {
+ /* 
   background: #3980a7;
+  */
+  background: transparent;
   color: #ffffff;
   align-content: left;
   text-align: left;
@@ -307,7 +310,10 @@ th, td {
   padding: 0;
   border: 0px;
   width: 200px;
+  /*
   background: #3980a7;
+  */
+   background-image: linear-gradient(to bottom,#125c99,  #6ab3da);
 }
 
 .projects {
