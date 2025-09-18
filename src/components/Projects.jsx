@@ -8,8 +8,9 @@ const Projects = () => {
     return (
         <div className="projects">
             
-                <h3>{t('description.projects')} 
-                    </h3>
+                <p className="h3">
+                    {t('description.projects')} 
+                    </p >
                 <Link to="https://github.com/t0mk0us/BankApplication" className="my-link">
                     {t('description.project1')}
                     </Link>

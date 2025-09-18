@@ -28,9 +28,16 @@
   color: #61dafb;
 }
 
+/* Or for specific elements */
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+
 }
 
 .smallprint {
@@ -54,10 +61,12 @@ buttons {
   overflow-x: scroll;
 }
 
-h3{
+.h3{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  color: #125c99;
+  font-weight: bold;
+  /*color: #125c99;*/
+  color: #ae2012;
   margin-left: 0px;
   padding-left: 16px;
   vertical-align: top;
@@ -101,7 +110,9 @@ h5{
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-size: 28px;
   font-weight: normal;
-  color: rgb(33, 144, 196);
+  /*color: rgb(33, 144, 196);
+  */
+  color: #3cd735;
 /*   margin-left: 0px;
   padding-left: 0px; */
   vertical-align: bottom;
@@ -111,6 +122,8 @@ h5{
 .section_subtitle {
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   font-size: 18px;
+  /*color: #125c99;
+  */
   color: #125c99;
   font-weight: 400;
 /*   margin-left: 0px;
@@ -149,7 +162,8 @@ h6{
 }
 
 .topimage {
-  padding: 0px;
+  padding: 0;
+  margin: 0;
   vertical-align: bottom;
   /*
   background-image: url("./pages/images/bkgrounds/OcenWater1.jpg");
@@ -165,7 +179,8 @@ h6{
 }
 
 .sideimage {
-  padding: 0px;
+  padding: 0;
+  margin: 0;
   vertical-align: top;
   
   /*background-image: url("./images/bkgrounds/OcenWater1.jpg");
@@ -189,9 +204,16 @@ h6{
     transform: rotate(360deg);
   }
 } */
+.navcolumn {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
 
 nav {
   /* border-bottom: 2px solid #97750e; */
+    margin: 0;
+  padding: 0;
   text-align: left;
   top: 0;
   width: 100%;
@@ -215,7 +237,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  font-weight: medium;
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -226,16 +248,22 @@ nav a:hover {
 }
 
 #page-body {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 500px;
+  height: auto;
   text-align: center;
   padding: 0px;
-  background: #f4f5d5;
-  overflow-y: scroll;
+  /*background: #f4f5d5;*/
+   background: white;
+  /*overflow-y: scroll;
   overflow-x: scroll;
+  */
 }
 
 th, td {
+    margin: 0;
+  padding: 0;
   padding-left: 10px;
   vertical-align: top;
 /* 
@@ -275,6 +303,9 @@ th, td {
 }
 
 .technocolumn {
+  margin: 0;
+  padding: 0;
+  border: 0px;
   width: 200px;
   background: #3980a7;
 }
@@ -349,7 +380,7 @@ button:hover {
   font-size: 16px;
   font-weight: 700;
   background-color: white;
-  color: #125c99;;
+  color: #125c99;
   /* border-radius: 5px;
   */
   border-color: #97750e;
@@ -365,23 +396,27 @@ button:hover {
 .p1 {
   color: #ffffff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   padding-left: 12px;
 }
 
 .p1:hover {
-  color: #fce9b1;
+  color: white;
 }
 
 .my-link {
-  color: rgb(40, 153, 182);
+  /* color: #125c99;
+  */
+  color: #017a9d;
+  
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   padding-left: 17px;
 }
 
 .my-link:hover {
-  color: #97750e;
+ /* color: #97750e;*/
+  color: #3cd735;
 }
 
 .linkedin-link {

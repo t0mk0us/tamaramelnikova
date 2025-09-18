@@ -1,4 +1,4 @@
-import logo from './images/logos/D4LogicLogo.jpg';
+import logo from './images/logos/d4logic_2_flat.jpg';
 import './App.css';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Footer from "./components/Footer.jsx"
@@ -12,7 +12,7 @@ import IndustriesPage from "./pages/IndustriesPage.jsx"
 import LanguagesPage from "./pages/LanguagesPage.jsx"
 import Technologies from "./components/Technologies.jsx";
 import CompMind from "./images/bkgrounds/compMind2.jpg";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import i18n from './i18n';
 
 
@@ -61,7 +61,7 @@ function App() {
         </td>
         </tr>
         <tr>
-        <td colSpan="4" valign="top" align="center">
+        <td colSpan="4" valign="top" align="left" className="navcolumn">
             <div>
           <NavBar />
           </div>
@@ -97,7 +97,7 @@ function App() {
             ))}
             </buttons>
             <br/>
-            <img src={CompMind} alt="IT brain" width="200" height="100"/> 
+            <img src={CompMind} alt="IT brain" width="300" height="150"/> 
             <br />
            <div>
             <Projects /> 

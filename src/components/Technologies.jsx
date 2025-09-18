@@ -9,25 +9,28 @@ const Technologies = () => {
 
     return (
         <div className="techno">
+            
             <p className="h7">
-            TECHNOLOGIES
+                {t('description.techskills')} 
             </p>
             <p className="p1">
-                    Java
+                    {t('description.techskill1')}        
                     <br />
-                    Spring Boot
+                    {t('description.techskill2')} 
                     <br />
-                    Maven
+                    {t('description.techskill3')} 
                     <br />
-                    Microservices
+                    {t('description.techskill4')} 
                     <br />
-                    REST APIs
+                    {t('description.techskill5')} 
                     <br />
-                    AWS S3 & Lambda
+                    {t('description.techskill6')} 
                     <br />
-                   Microsoft Azure
+                   {t('description.techskill7')} 
                    <br />
-                  Cybersecurity
+                  {t('description.techskill8')} 
+                  <br />
+                  {t('description.techskill9')} 
         </p>
         </div>
     );

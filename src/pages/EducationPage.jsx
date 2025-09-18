@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 // import { Routes, Route, useNavigate } from 'react-router-dom';
 /* import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom'; */
-import Concordia from "../images/Concordia.jpg";
-import GoldenKey from "../images/GoldenKey.jpg";
+import Concordia from "../images/ConcordiaDiplomeTM.jpg";
+import GoldenKey from "../images/GoldenKeyTM.jpg";
 
 
 function EducationPage () {
