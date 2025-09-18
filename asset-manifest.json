@@ -1,5 +1,4 @@
-{
-  "files": {
+ "files": {
     "main.css": "/tamaramelnikova/static/css/main.37d99c95.css",
     "main.js": "/tamaramelnikova/static/js/main.3c1743fd.js",
     "static/js/453.e03aab3c.chunk.js": "/tamaramelnikova/static/js/453.e03aab3c.chunk.js",
@@ -19,9 +18,12 @@
     "main.37d99c95.css.map": "/tamaramelnikova/static/css/main.37d99c95.css.map",
     "main.3c1743fd.js.map": "/tamaramelnikova/static/js/main.3c1743fd.js.map",
     "453.e03aab3c.chunk.js.map": "/tamaramelnikova/static/js/453.e03aab3c.chunk.js.map"
+    "main.ab26bf3b.css.map": "/tamaramelnikova/static/css/main.ab26bf3b.css.map",
+    "main.2c98d298.js.map": "/tamaramelnikova/static/js/main.2c98d298.js.map",
+    "453.e03aab3c.chunk.js.map": "/tamaramelnikova/static/js/453.e03aab3c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37d99c95.css",
-    "static/js/main.3c1743fd.js"
+    "static/css/main.ab26bf3b.css",
+    "static/js/main.2c98d298.js"
   ]
 }
