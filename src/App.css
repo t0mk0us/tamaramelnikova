@@ -247,6 +247,12 @@ nav a:hover {
   color: #125c99;
 }
 
+nav a:active {
+  background: white;
+  color: #125c99;
+  font-weight: bold;
+}
+
 #page-body {
   margin: 0;
   padding: 0;
@@ -313,7 +319,7 @@ th, td {
   /*
   background: #3980a7;
   */
-   background-image: linear-gradient(to bottom,#125c99,  #6ab3da);
+   background-image: linear-gradient(to bottom,#017a9d,  #6ab3da);
 }
 
 .projects {
@@ -358,12 +364,18 @@ buttons {
 }
 
 button {
+  width: 150px;
   padding: 5px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  background-color: #125c99;
-  /*color: #97750e;*/
+  background-color: #017a9d;
+  border-color: #017a9d;
+ /*
+  background-color: white;
+  */
   color: white;
+  /*
+  color: #125c99;
   /*
   border-radius: 5px;
   */
@@ -413,8 +425,7 @@ button:hover {
 .my-link {
   /* color: #125c99;
   */
-  color: #017a9d;
-  
+  color: #017a9d; 
   text-decoration: none;
   font-weight: normal;
   padding-left: 17px;
@@ -422,19 +433,23 @@ button:hover {
 
 .my-link:hover {
  /* color: #97750e;*/
+  /*
   color: #3cd735;
+  */
+  color: rgb(40, 153, 182);
+  font-weight: bold;
 }
 
 .linkedin-link {
   font-size: 18px;
   color: #125c99;
   font-weight: 400;
-
   text-decoration: none;
 }
 
 .linkedin-link:hover {
   color: rgb(40, 153, 182);
+  font-weight: bold;
 }
 
 .contact-link {
