@@ -57,6 +57,17 @@ function ExperiencePage () {
                   {t('description.task3')} 
                   <br />
                 <br />
+                  <b>{t('description.experience3a')}</b> 	
+                  {t('description.work_period3a')}
+                  <br />
+                  <b>{t('description.company3a')}</b>
+                  {t('description.location3a')}
+                  <br />
+                  <i>{t('description.note3a')}</i>
+                  <br />
+                  {t('description.task3a')} 
+                  <br />
+                <br />
                     <b>{t('description.experience4')}</b> 	
                   {t('description.work_period4')}
                   <br />
