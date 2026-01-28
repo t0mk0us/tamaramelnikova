@@ -63,8 +63,8 @@ function ExperiencePage () {
                   <b>{t('description.company3a')}</b>
                   {t('description.location3a')}
                   <br />
-                  <i>{t('description.note3a')}</i>
-                  <br />
+  {/*                 <i>{t('description.note3a')}</i>
+                  <br /> */}
                   {t('description.task3a')} 
                   <br />
                 <br />
