@@ -31,7 +31,7 @@ const Projects = () => {
                     {t('description.project8')}
                     </Link>
                     <br />
-                    <Link to=" https://github.com/t0mk0us/tamara-url-shortener"  className="my-link">
+                    <Link to="https://github.com/t0mk0us/tamara-url-shortener"  className="my-link">
                     {t('description.project9')}
                     </Link>
                     <br />
