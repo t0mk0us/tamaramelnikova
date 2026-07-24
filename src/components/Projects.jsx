@@ -11,37 +11,57 @@ const Projects = () => {
                 <p className="h3">
                     {t('description.projects')} 
                     </p >
-                <Link to="https://github.com/t0mk0us/BankApplication" className="my-link">
-                    {t('description.project1')}
-                    </Link>
-                    <br/>
+                    <Link to="https://github.com/t0mk0us/BankApplication" className="my-link">
+                            {t('description.project1')}
+                        </Link>
+                        <br/>
                     <Link to="https://github.com/t0mk0us/bankapp-frontend-react"  className="my-link">
                         {t('description.project2')}
-                    </Link>
-                    <br />
+                        </Link>
+                        <br />
                     <Link to="https://github.com/t0mk0us/algorithms"  className="my-link">                    
                         {t('description.project3')}
-                    </Link>
-                    <br />
+                        </Link>
+                        <br />
                     <Link to="https://github.com/t0mk0us/microservices"  className="my-link">
-                    {t('description.project4')}
+                        {t('description.project4')}
+                        </Link>
+                        <br />
+                    <Link to="https://github.com/t0mk0us/paymentApp"  className="my-link">
+                    {t('description.project5')}
                         </Link>
                     <br />
+                    <Link to="https://github.com/t0mk0us/tamara-aws-s3/tree/dev"  className="my-link">
+                        {t('description.project6')}
+                        </Link>
+                        <br />
+                    <Link to="https://github.com/t0mk0us/tamara-aws-lambda"  className="my-link">
+                        {t('description.project7')}
+                        </Link>
+                        <br />
                     <Link to="https://github.com/t0mk0us/loadbalancer"  className="my-link">
-                    {t('description.project8')}
-                    </Link>
-                    <br />
+                        {t('description.project8')}
+                        </Link>
+                        <br />
                     <Link to="https://github.com/t0mk0us/tamara-url-shortener"  className="my-link">
-                    {t('description.project9')}
-                    </Link>
-                    <br />
-                    <Link to="https://github.com/t0mk0us/bank-auth0/tree/master"  className="my-link">
-                    {t('description.project10')}
-                    </Link>
-                     <br />
+                        {t('description.project9')}
+                        </Link>
+                        <br />
+                    <Link to="https://github.com/t0mk0us/tamara-url-shortener-ui"  className="my-link">
+                        {t('description.project10')}
+                        </Link>
+                        <br />
+                    <Link to="https://github.com/t0mk0us/tamara-oauth2-autorization-server"  className="my-link">
+                        {t('description.project11')}
+                        </Link>
+                        <br />
+                    <Link to="https://github.com/t0mk0us/tamara-oauth2-resource-server"  className="my-link">
+                        {t('description.project12')}
+                        </Link>
+                        <br />
                     <Link to="https://github.com/t0mk0us/bank-mvc-node"  className="my-link">
-                    {t('description.project11')}
-                    </Link>
+                        {t('description.project13')}
+                        </Link>
                     <br />
         </div>
     );
